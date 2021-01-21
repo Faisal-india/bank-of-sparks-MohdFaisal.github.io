@@ -1,0 +1,48 @@
+.nav-wrapper {
+    height: 53px;
+    background: #434343;
+}
+.topnav a[id="user"] {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: Roboto-Light;
+}
+.topnav a[id="logout"] {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: OpenSans-Bold;
+    background-color: #b71c1c;
+    border-top-right-radius: 3px;
+}
+
+.topnav a[id="profile"] {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: OpenSans-Bold;
+    background-color: #0D47A1;
+    border-top-left-radius: 3px;
+}
+.topnav a[id="profile"]:hover {
+    color: white;
+    background-color: #2196F3;
+}
+
+.topnav a[id="logout"]:hover {
+    color: white;
+    background-color: #f44336;
+}

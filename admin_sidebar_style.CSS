@@ -1,0 +1,28 @@
+body{
+  position: ;
+}
+div.sidenav  {
+    position: absolute; 
+    width: 256px;
+    background-color: #333;
+    height: 90vh;
+    float: left;
+    overflow-y: auto;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+div.sidenav  {
+  float: left;
+}
+
+div.sidenav  a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.sidenav a:hover {
+  background-color: #111;
+}

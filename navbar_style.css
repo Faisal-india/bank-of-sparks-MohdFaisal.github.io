@@ -1,0 +1,29 @@
+
+
+div.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #434343;
+  position: fixed;
+  height: 30px;
+  overflow: auto;
+}
+
+div.topnav a {
+  display: inline;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+div.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+div.topnav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}

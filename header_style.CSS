@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #FAFAFA;
+}
+
+div.flex-container-header {
+	display: -webkit-flex;
+    display: flex;
+	width: 100%;
+	background-color: #434343;
+}
+div.flex-item-header h2{
+	display: inline;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+img{
+	display: inline;
+	padding-left: 30px;
+}
+h2 {
+    font-family: OpenSans-Light;
+    color: white;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: calc((1.5rem - 2rem) + 2.5rem);
+    margin-bottom: 1.5rem;
+}
